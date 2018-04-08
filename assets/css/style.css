@@ -11,15 +11,6 @@ html {
     height: 100%;
 }
 
-.tree {
-    float: right;
-    padding: 20px;
-}
-
-.myName {
-    display: inline-block;
-}
-
 body {
     margin: 0 auto 0 auto;
     color: #777777;
@@ -31,42 +22,34 @@ body {
     grid-template-rows: 1fr auto;
 }
 
-ul{
-    background-color: #ffffff;
-}
-
 .main_head {
     color:#ffffff;
     background-color: #4aaaa5;
     padding: 18px;
     margin-top: 0;
     margin-bottom: 0;
+    display: inline-block;
 }
 
-.nav {
+.topnav {
+    background-color: #4aaaa5;
+    padding-right: 7px;
+}
+
+.topnav a {
+    float: right;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 15px;
     color: #777777;
+    padding: 5px;
+    margin-top: 18px;
 }
 
-.nav:hover {
+.topnav a:hover {
     font-weight: bold;
     color: #000;
-}
-
-li:hover { 
     background-color: palegreen;
     font-family: monospace;
-}
-
-li {
-    display: inline-block;
-    padding: 10px;
-    border-right: 1px solid #777777;
-}
-
-li:last-child {
-    border-right: none;
 }
 
 h1 {

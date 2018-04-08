@@ -11,24 +11,12 @@
 
 <body>
     <section class="container">
-        <div class="list" id="myList">
-            <ul>
-                <div class=myName>
-                    <h1 class="main_head">Michael Myers</h1>
-                </div>
-                <div class="tree">
-                    <li>
-                        <a class="nav" href="portfolio.html">About</a>
-                    </li>
-                    <li>
-                        <a class="nav" href="index.html">Portfolio</a>
-                    </li>
-                    <li>
-                        <a class="nav" href="contact.html">Contact</a>
-                    </li>
-                </div>
-            </ul>
-        </div>
+        <div class="topnav" id="stickyHead">
+            <h1 class="main_head">Michael Myers</h1>
+            <a href="contact.html">Contact</a>
+            <a href="index.html">Portfolio</a>
+            <a href="portfolio.html">About</a>
+        </div>  
 
         <section class="about">
             <h1>About Me</h1>
@@ -68,7 +56,7 @@
     <script>
         window.onscroll = function () { myFunction() };
 
-        var header = document.getElementById("myList");
+        var header = document.getElementById("stickyHead");
         var sticky = header.offsetTop;
 
         function myFunction() {
