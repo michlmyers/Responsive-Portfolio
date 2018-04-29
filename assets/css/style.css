@@ -314,6 +314,17 @@ aside {
     color: #ffffff;
 }
 
+.liri {
+    bottom: 30px;
+    width: 200px;
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+}
+
 #imgMe {
     height: 200px;
     width: 200px;
